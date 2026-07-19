@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="pic.jpg" type="image/x-icon" />
+    <title>Hassan Ahmad // Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ── HEADER ── -->
+    <header>
+        <div class="sys-status">
+            <div class="blink"></div>
+            HASSAN_AHMAD // ONLINE
+        </div>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+        </button>
+        <nav id="main-nav">
+            <a href="#hero" class="active">/HOME</a>
+            <a href="#skills">/SKILLS</a>
+            <a href="#projects">/PROJECTS</a>
+            <a href="#education">/EDUCATION</a>
+            <a href="#contact">/CONTACT</a>
+            <a href="Hassan_Ahmad_CV.pdf" download="Hassan-Ahmad-CV.pdf" class="btn-download"
+                id="dl-btn">[DOWNLOAD_CV]</a>
+        </nav>
+    </header>
+
+    <!-- ── HERO ── -->
+    <section id="hero" style="padding: 0; max-width: none;">
+        <div class="hero-grid-bg"></div>
+        <div class="hero-scan"></div>
+        <div class="hero-content" style="padding: 80px 5%; max-width: 1300px; margin: 0 auto;">
+            <div class="hero-eyebrow">// PORTFOLIO_V1.0 &nbsp;·&nbsp; LAHORE, PK &nbsp;·&nbsp; AVAILABLE FOR INTERNSHIP
+            </div>
+            <h1 class="hero-name">HASSAN<br><span>AHMAD</span></h1>
+            <p class="hero-title">COMPUTER_SCIENCE · FULL-STACK_DEV · DSA_ENGINEER</p>
+            <p class="hero-bio">
+                CS student at the University of Lahore, 6th semester. Hands-on experience in data structures,
+                algorithms, and full-stack web development — turning complex problems into clean, efficient solutions.
+            </p>
+            <div class="hero-metrics">
+                <div class="hero-metric">
+                    <span class="val">6th</span>
+                    <span class="lbl">SEMESTER</span>
+                </div>
+                <div class="hero-metric">
+                    <span class="val">3+</span>
+                    <span class="lbl">LANGUAGES</span>
+                </div>
+                <div class="hero-metric">
+                    <span class="val">5+</span>
+                    <span class="lbl">PROJECTS</span>
+                </div>
+                <div class="hero-metric">
+                    <span class="val">2023</span>
+                    <span class="lbl">ENROLLED</span>
+                </div>
+            </div>
+            <div class="hero-links">
+                <a href="https://github.com/Hassan200r" target="_blank" class="hero-link primary">
+                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z" />
+                    </svg>
+                    GITHUB
+                </a>
+                <a href="https://www.linkedin.com/in/hassan-ahmad-1992b6354/" target="_blank"
+                    class="hero-link secondary">
+                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                    </svg>
+                    LINKEDIN
+                </a>
+                <a href="mailto:03066703799" class="hero-link hire-me">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    HIRE ME
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ── SKILLS ── -->
+    <section id="skills">
+        <div class="section-label">// MODULE_02</div>
+        <h2 class="section-title">TECH <span>STACK</span></h2>
+        <div class="skills-grid">
+            <div class="skill-group reveal">
+                <div class="skill-group-label lang">/ LANGUAGES</div>
+                <div class="skill-item">C++ <div class="skill-bar-wrap">
+                        <div class="skill-bar" style="width:85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">Python (Basic) <div class="skill-bar-wrap">
+                        <div class="skill-bar" style="width:45%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">SQL <div class="skill-bar-wrap">
+                        <div class="skill-bar" style="width:70%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-group reveal">
+                <div class="skill-group-label data">/ DATA STRUCTURES</div>
+                <div class="skill-item">Linked Lists &amp; Trees <div class="skill-bar-wrap">
+                        <div class="skill-bar" style="width:80%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">Graphs &amp; Heaps <div class="skill-bar-wrap">
+                        <div class="skill-bar" style="width:75%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">Sorting &amp; Searching <div class="skill-bar-wrap">
+                        <div class="skill-bar" style="width:80%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-group reveal">
+                <div class="skill-group-label web">/ WEB & FRONTEND</div>
+                <div class="skill-item">React <div class="skill-bar-wrap">
+                        <div class="skill-bar" style="width:72%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">HTML &amp; CSS <div class="skill-bar-wrap">
+                        <div class="skill-bar" style="width:85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">JavaScript <div class="skill-bar-wrap">
+                        <div class="skill-bar" style="width:70%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-group reveal">
+                <div class="skill-group-label" style="color: var(--magenta);">/ BACKEND & CLOUD</div>
+                <div class="skill-item">Firebase <div class="skill-bar-wrap">
+                        <div class="skill-bar" style="width:65%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">Database Design <div class="skill-bar-wrap">
+                        <div class="skill-bar" style="width:70%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">REST APIs <div class="skill-bar-wrap">
+                        <div class="skill-bar" style="width:55%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ── PROJECTS ── -->
+    <section id="projects">
+        <div class="section-label">// MODULE_03</div>
+        <h2 class="section-title">ACADEMIC <span>PROJECTS</span></h2>
+        <div class="projects-grid">
+
+            <div class="project-card reveal">
+                <span class="project-tag cpp">/ C++ · DSA</span>
+                <div class="project-title">DSA Implementation Suite</div>
+                <p class="project-desc">
+                    Complete implementation of core data structures in C++: linked lists, stacks, queues, binary trees,
+                    and graphs. Includes sorting and searching algorithms with full time-complexity analysis.
+                </p>
+                <div class="project-stack">
+                    <span class="stack-chip">C++</span>
+                    <span class="stack-chip">OOP</span>
+                    <span class="stack-chip">Algorithms</span>
+                    <span class="stack-chip">Complexity Analysis</span>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <span class="project-tag web">/ REACT · FIREBASE</span>
+                <div class="project-title">Full-Stack Web Application</div>
+                <p class="project-desc">
+                    Responsive multi-page app built with React and Firebase. Integrates real-time database,
+                    authentication flow, and Firebase hosting. Clean component architecture with reusable UI modules.
+                </p>
+                <div class="project-stack">
+                    <span class="stack-chip">React</span>
+                    <span class="stack-chip">Firebase</span>
+                    <span class="stack-chip">JavaScript</span>
+                    <span class="stack-chip">HTML/CSS</span>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <span class="project-tag db">/ SQL · DATABASE</span>
+                <div class="project-title">Relational Database System</div>
+                <p class="project-desc">
+                    Designed normalized relational schemas from the ground up. Implemented complex SQL queries, stored
+                    procedures, multi-table joins, and transaction management for real-world data scenarios.
+                </p>
+                <div class="project-stack">
+                    <span class="stack-chip">SQL</span>
+                    <span class="stack-chip">Schema Design</span>
+                    <span class="stack-chip">Stored Procedures</span>
+                    <span class="stack-chip">Transactions</span>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <span class="project-tag cpp">/ C++ · OOP</span>
+                <div class="project-title">OOP System Design Projects</div>
+                <p class="project-desc">
+                    Object-oriented systems built in C++ covering inheritance, polymorphism, operator overloading, and
+                    design patterns. Applied in simulation-style lab and group assignments.
+                </p>
+                <div class="project-stack">
+                    <span class="stack-chip">C++</span>
+                    <span class="stack-chip">OOP</span>
+                    <span class="stack-chip">Design Patterns</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ── EDUCATION ── -->
+    <section id="education">
+        <div class="section-label">// MODULE_04</div>
+        <h2 class="section-title">EDUCATION <span>LOG</span></h2>
+        <div class="edu-panel reveal">
+            <div class="edu-meta">
+                <div class="edu-year">6th</div>
+                <div class="edu-label">CURRENT SEMESTER</div>
+                <br>
+                <div class="edu-year" style="font-size:1.8rem">2023</div>
+                <div class="edu-label">ENROLLED</div>
+                <br>
+                <div style="margin-top: 20px; color: var(--text-dim); font-size: 0.75rem; line-height: 1.6;">
+                    <div>LANG: Urdu (Native)</div>
+                    <div>LANG: English (Proficient)</div>
+                    <div style="margin-top: 10px;">SAP: 70148544</div>
+                </div>
+            </div>
+            <div class="edu-detail">
+                <div class="edu-institution">University of Lahore</div>
+                <div class="edu-degree">BS Computer Science — Department of Computer Sciences, IT & Software Engineering
+                </div>
+                <p style="color: var(--text-muted); font-size: 0.82rem; line-height: 1.6; margin-bottom: 16px;">
+                    Active participant in lab projects, group development assignments, and coursework spanning systems
+                    programming, algorithms, databases, and web technologies.
+                </p>
+                <div style="color: var(--text-dim); font-size: 0.72rem; letter-spacing: 0.1em; margin-bottom: 10px;">/
+                    CORE COURSEWORK</div>
+                <div class="edu-courses">
+                    <div class="edu-course">Object-Oriented Programming</div>
+                    <div class="edu-course">Data Structures & Algorithms</div>
+                    <div class="edu-course">Database Systems</div>
+                    <div class="edu-course">Web Technologies</div>
+                    <div class="edu-course">Operating Systems</div>
+                    <div class="edu-course">Computer Networks</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ── INTERESTS ── -->
+    <section id="interests">
+        <div class="section-label">// MODULE_05</div>
+        <h2 class="section-title">FOCUS <span>AREAS</span></h2>
+        <div class="interests-grid">
+            <div class="interest-item reveal">
+                <span class="interest-icon">⬡</span> Full-Stack Web Development
+            </div>
+            <div class="interest-item reveal">
+                <span class="interest-icon">⬡</span> Competitive Programming &amp; DSA
+            </div>
+            <div class="interest-item reveal">
+                <span class="interest-icon">⬡</span> Cloud &amp; Backend Systems
+            </div>
+            <div class="interest-item reveal">
+                <span class="interest-icon">⬡</span> Open Source Contribution
+            </div>
+            <div class="interest-item reveal">
+                <span class="interest-icon">⬡</span> UI/UX Design Principles
+            </div>
+            <div class="interest-item reveal">
+                <span class="interest-icon">⬡</span> Algorithm Optimization
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact">
+        <div class="section-label">// MODULE_06</div>
+        <h2 class="section-title">ESTABLISH <span>LINK</span></h2>
+        <div class="contact-wrap">
+            <div class="contact-info reveal">
+                <div style="color: var(--text-dim); font-size: 0.72rem; letter-spacing: 0.15em; margin-bottom: 20px;">
+                    [CONTACT_MATRIX]</div>
+
+                <div class="contact-row">
+                    <span class="contact-row-label">PHONE</span>
+                    <span class="contact-row-val">03066703799</span>
+                </div>
+                <div class="contact-row">
+                    <span class="contact-row-label">LOCATION</span>
+                    <span class="contact-row-val">EME Society 204-F, Lahore, Pakistan</span>
+                </div>
+                <div class="contact-row">
+                    <span class="contact-row-label">GITHUB</span>
+                    <span class="contact-row-val"><a href="https://github.com/Hassan200r"
+                            target="_blank">github.com/Hassan200r</a></span>
+                </div>
+                <div class="contact-row">
+                    <span class="contact-row-label">LINKEDIN</span>
+                    <span class="contact-row-val"><a href="https://www.linkedin.com/in/hassan-ahmad-1992b6354/"
+                            target="_blank">linkedin.com/in/hassan-ahmad</a></span>
+                </div>
+                <div class="contact-row">
+                    <span class="contact-row-label">STATUS</span>
+                    <span class="contact-row-val" style="color: var(--green);">OPEN TO INTERNSHIP / JR ROLES</span>
+                </div>
+            </div>
+
+            <div class="contact-social reveal">
+                <div style="color: var(--text-dim); font-size: 0.72rem; letter-spacing: 0.15em; margin-bottom: 8px;">
+                    [EXTERNAL_LINKS]</div>
+                <a href="https://github.com/Hassan200r" target="_blank" class="social-link">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z" />
+                    </svg>
+                    <div>
+                        <div style="color: #fff; margin-bottom: 2px;">GitHub Profile</div>
+                        <div style="font-size: 0.72rem; color: var(--text-dim);">Hassan200r · Repositories &amp; Code
+                        </div>
+                    </div>
+                    <span class="arrow">→</span>
+                </a>
+                <a href="https://www.linkedin.com/in/hassan-ahmad-1992b6354/" target="_blank" class="social-link">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                    </svg>
+                    <div>
+                        <div style="color: #fff; margin-bottom: 2px;">LinkedIn</div>
+                        <div style="font-size: 0.72rem; color: var(--text-dim);">hassan-ahmad-1992b6354 · Professional
+                            Network</div>
+                    </div>
+                    <span class="arrow">→</span>
+                </a>
+                <a href="Hassan_Ahmad_CV.pdf" download="Hassan-Ahmad-CV.pdf" id="cv-link" class="social-link">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h4a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+                    </svg>
+                    <div>
+                        <div style="color: #fff; margin-bottom: 2px;">Download CV</div>
+                        <div style="font-size: 0.72rem; color: var(--text-dim);">Hassan_Ahmad_CV.pdf</div>
+                    </div>
+                    <span class="arrow">↓</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer>
+        <span>HASSAN_AHMAD // CS@UOL // &copy; 2026 Hassan Ahmad. All rights reserved.</span>
+        <span>Designed &amp; Developed by <a href="https://uzairak01.netlify.app/" target="_blank"
+                style="color: var(--green); text-decoration: none; transition: text-shadow 0.2s;"
+                onmouseover="this.style.textShadow='0 0 8px rgba(0,255,102,0.5)'"
+                onmouseout="this.style.textShadow='none'">Uzair Ahmad Khan</a></span>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
