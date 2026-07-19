@@ -13,10 +13,10 @@ reveals.forEach(el => observer.observe(el));
 // Nav active state on scroll
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('nav a[href^="#"]');
-window.addEventListener('scroll', () => {
+globalThis.addEventListener('scroll', () => {
     let current = '';
     sections.forEach(sec => {
-        if (window.scrollY >= sec.offsetTop - 100) current = sec.getAttribute('id');
+        if (globalThis.scrollY >= sec.offsetTop - 100) current = sec.getAttribute('id');
     });
     navLinks.forEach(link => {
         link.classList.remove('active');
